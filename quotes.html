@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link rel="stylesheet" href="quotes.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="Images/logo.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <!-- <li><a href="About.html">About</a></li> -->
+                <!-- <li><a href="#">Portfolio</a></li> -->
+                <!-- <li><a href="quotes.html">Quotes</a></li> -->
+                <li><a href="youtube.html">Youtube Shorts</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <li><a href="http://www.facebook.com/PcodeBoy"><img src="Images/facebook.png" class="img2"></a></li>
+            <li><a href="http://www.instagram.com/pcodeboy"><img src="Images/instagram.jpg" class="img1"></a></li>
+        </div>
+    </div><hr>
+
+    <div class="header">
+        <h1>Here are inspiring quotes that you can live with.</h1>
+    </div>
+
+    <div class="quote-container">
+        <h1>Steve Jobs</h1>
+        <div id="quote"></div>
+        <div id="author"></div>
+        <button id="newQuoteButton">Next</button>
+    </div>
+    <div class="quote-container">
+        <h1>Mark Zuckerberg</h1>
+        <div id="quote1"></div>
+        <div id="author1"></div>
+        <button id="newQuoteButton1" class="p1">Next</button>
+    </div>
+    <div class="quote-container">
+        <h1>Patrick H Weedy Jr</h1>
+        <div id="quote2"></div>
+        <div id="author2"></div>
+        <button id="newQuoteButton2" class="p2">Next</button>
+    </div>
+    <div class="quote-container">
+        <h1>Bill Gates</h1>
+        <div id="quote3"></div>
+        <div id="author3"></div>
+        <button id="newQuoteButton3" class="p3">Next</button>
+    </div>
+
+
+
+    <script>
+        alert("Hey User, Welcome to the Quotes for Brain exercise, press ok to get started");
+        const quotes = [
+            {
+                quote: "The only limit to our realization of tomorrow will be our doubts of today.",
+                author: "Franklin D. Roosevelt"
+            },
+            {
+                quote: "Life is what happens when you're busy making other plans.",
+                author: "John Lennon"
+            },
+            {
+                quote: "The only way to do great work is to love what you do.",
+                author: "Steve Jobs"
+            },
+            {
+                quote: "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+                author: "Martin Luther King Jr."
+            },
+            {
+                quote: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+                author: "Winston Churchill"
+            }
+        ];
+
+        // Function for 1st Quotes
+        const quoteElement = document.getElementById("quote");
+        const authorElement = document.getElementById("author");
+        const newQuoteButton = document.getElementById("newQuoteButton");
+
+        function getRandomQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            return quotes[randomIndex];
+        }
+
+        function displayRandomQuote() {
+            const randomQuote = getRandomQuote();
+            quoteElement.textContent = randomQuote.quote;
+            authorElement.textContent = `- ${randomQuote.author}`;
+        }
+
+        newQuoteButton.addEventListener("click", displayRandomQuote);
+
+        // Display initial code
+        displayRandomQuote();
+
+        // Function for 2nd Quotes
+        const quoteElement1 = document.getElementById("quote1");
+        const authorElement1 = document.getElementById("author1");
+        const newQuoteButton1 = document.getElementById("newQuoteButton1");
+
+        function getRandomQuote1() {
+            const randomIndex1 = Math.floor(Math.random() * quotes.length);
+            return quotes[randomIndex1];
+        }
+
+        function displayRandomQuote1() {
+            const randomQuote1 = getRandomQuote1();
+            quoteElement1.textContent = randomQuote1.quote;
+            authorElement1.textContent = `- ${randomQuote1.author}`;
+        }
+
+        newQuoteButton1.addEventListener("click", displayRandomQuote1);
+
+        // Display an initial random quote on page load
+        displayRandomQuote1();
+
+
+         // Function for 3rd Quotes
+        const quoteElement2 = document.getElementById("quote2");
+        const authorElement2 = document.getElementById("author2");
+        const newQuoteButton2 = document.getElementById("newQuoteButton2");
+
+        function getRandomQuote2() {
+            const randomIndex2 = Math.floor(Math.random() * quotes.length);
+            return quotes[randomIndex2];
+        }
+
+        function displayRandomQuote2() {
+            const randomQuote2 = getRandomQuote2();
+            quoteElement2.textContent = randomQuote2.quote;
+            authorElement2.textContent = `- ${randomQuote2.author}`;
+        }
+
+        newQuoteButton2.addEventListener("click", displayRandomQuote2);
+
+        // Display an initial random quote on page load
+        displayRandomQuote2();
+
+
+         // Function for 4th Quotes
+        const quoteElement3 = document.getElementById("quote3");
+        const authorElement3 = document.getElementById("author3");
+        const newQuoteButton3 = document.getElementById("newQuoteButton3");
+
+        function getRandomQuote3() {
+            const randomIndex3 = Math.floor(Math.random() * quotes.length);
+            return quotes[randomIndex3];
+        }
+
+        function displayRandomQuote3() {
+            const randomQuote3 = getRandomQuote3();
+            quoteElement3.textContent = randomQuote3.quote;
+            authorElement3.textContent = `- ${randomQuote3.author}`;
+        }
+
+        newQuoteButton3.addEventListener("click", displayRandomQuote3);
+
+        // Display an initial random quote on page load
+        displayRandomQuote3();
+    </script>
+
+</body>
+</html>

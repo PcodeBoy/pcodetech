@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+@keyframes ani01 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aliceblue; */
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: static;
+    width: 100%;
+    height: 80px;
+    background: rgb(142, 122, 141);
+    padding: auto;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+    margin-top: 8px;
+    padding: 0 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.logo:hover {
+    background-color: #ffff;
+    border-radius: 10px;
+    transition: 2s ease;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    transition: 2s;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.me h1 {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    margin-top: 2px;
+
+}
+
+.me .shape-01 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(6, 145, 157);
+    right: 5%;
+    top: 20%;
+    margin-right: 10px;
+    animation: ani01 2s linear infinite;
+
+}
+
+.profile {
+    position: relative;
+    width: 120px;
+    cursor: pointer;
+    padding: 0 15px;
+    border: 2px;
+    border-radius: 200px;
+    margin-top: 2px;
+}
+
+.me p {
+    font-size: 20px;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+/* 
+.col {
+    flex-basis: 5%;
+}
+
+.-card {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 1;
+}
+
+.-card:hover {
+    transform: translateX(-30px);
+    transition: 2s;
+    background: rgb(251, 164, 15);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.card1 {
+    background-image: url(Images/Education.jpg);
+    opacity: 0.9;
+}
+
+.card2 {
+    background-image: url(Images/Religion.png);
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 0.9;
+}
+
+.card3 {
+    background-image: url(Images/Skills.jpg);
+    opacity: 0.9;
+}
+
+.col a {
+    text-decoration: none;
+    color: black;
+}
+
+.col li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}  */
+
+/* section --- facilities */
+
+.facilitate {
+    width: 80%;
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.facilitate li {
+    list-style: none;
+}
+
+.facilitate li a {
+    text-decoration: none;
+}
+
+.facilitate li a h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.facilitate-col {
+    flex-basis: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    display: inline-block;
+}
+
+.facilitate-col img {
+    width: 30%;
+    border-radius: 100px;
+    margin: 15px 10px;
+    cursor: pointer;
+    transform: 1;
+}
+
+.col1 {
+    width: 40%;
+}
+
+.col1:hover {
+    width: 35%;
+    border-radius: 30px;
+    background-image: url(Images/Students.jpg);
+    transition: 2s;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    opacity: 1;
+}
+
+.col2 {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.col2:hover {
+    width: 35%;
+    border-radius: 30px;
+    background-image: url(Images/MC-1.PNG);
+    transition: 2s ease-in;
+    transition: 2s ease-out;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    opacity: 1;
+}
+
+.col3 {
+    width: 40%;
+}
+
+.col3:hover {
+    width: 35%;
+    border-radius: 30px;
+    background-image: url(Images/BCL-1.jpg);
+    transition: 2s;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    opacity: 1;
+}
+ 
+.facilitate-col h3 {
+    padding: 0;
+    font-size: 18px;
+}
+
+.facilitate-col p {
+    margin-top: 10px;
+    margin-bottom: 9px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Christ {
+    width: 80%;
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.Christ li {
+    list-style: none;
+}
+
+.Christ li a {
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.Christ h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 7px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+}
+
+.Christ p {
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+.pcodeboy {
+    width: 80%;
+    padding: 100px;
+    margin: 10px;
+}
+
+.pcodeboy li {
+    list-style: none;
+}
+
+.pcodeboy li a {
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.pcodeboy h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 7px;
+    margin-top: -120px;
+    margin-bottom: 30px;
+}
+
+.pcodeboy p {
+    font-size: 18px;
+    word-spacing: 2px;
+    text-align: left;
+}
+
+.pcodeboy ul {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.pcodeboy ul li {
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: rgb(142, 122, 141);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+footer p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer h5 {
+    font-size: 13px;
+    margin-left: 80px;
+    display: inline-block;
+    /* margin: 10px 15px; */
+    word-spacing: 4px;
+    font-weight: 100;
+}

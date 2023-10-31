@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.quote-container {
+    max-width: 500px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#quote, #quote1, #quote2, #quote3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#author, #author1, #author2, #author3 {
+    font-style: italic;
+}
+#newQuoteButton {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.p1, .p2, .p3 {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.logo:hover {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: 2s ease;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+    margin-left: 40%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+}
+
+nav ul li a:hover {
+    color: red; /* Change the color to your desired hover color */
+    transition: 2s;
+}
+
+
+.social {
+    text-align: right;
+}
+
+.social li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social li a img{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.img1 {
+    margin-right: 100px;
+}
+
+.header h1 {
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

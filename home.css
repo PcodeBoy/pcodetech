@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.logo:hover {
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 2s ease;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+    /* background: #fff; */
+    height: 40px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 10%;
+    word-spacing: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    /* word-spacing: 30px; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: aqua; /* Change the color to your desired hover color */
+    transition: 2s;
+}
+
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 20px;
+}
+
+button {
+    width: 180px;
+    font-size: 18px;
+    color: #000;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+button:hover {
+    color: white;
+    background-color: orangered;
+    transition: 2s;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+    background-image: url(Images/BCL-1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 1;
+}
+
+.card:hover {
+    transform: translateY(-30px);
+    transition: 3s;
+}
+
+.social {
+    text-align: center;
+    /* background: white; */
+    width: 10%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+.social li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social li a img{
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    margin-top: -12%;
+    padding: 10px;
+}
+

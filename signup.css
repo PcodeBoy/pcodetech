@@ -1,0 +1,151 @@
+div, h4 {
+    text-align: center;
+    font-size: 25px;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 8%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-wrap: pretty;
+}
+
+p {
+    font-size: 30px;
+    font-style: Italic;
+}
+body {
+    background-size: contain;
+    background-position: relative;
+    padding: 10px;
+    background-color: peru;
+}
+
+form {
+  border: 1px solid light blue;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: light blue;
+  padding: 20px;
+}
+
+.you {
+  background-color: white;
+  padding: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+h2 {
+  margin-top: 4px;
+  margin-bottom: 20px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  font-family: Times New Romans, arial, Italic;
+}
+
+label {
+  font-weight: Bold;
+}
+
+input{
+  border: 1px solid gray;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.btn{
+  background-color: black;
+  color: white;
+  font-size: 19px;
+}
+.btn1 {
+  background-color: black;
+  color: white;
+  font-size: 19px;
+}
+
+.btn:hover {
+  background-color: gray;
+  color: black;
+  font-size: 25px;
+  transition: 2s;
+}
+
+.btn1:hover {
+  background-color: gray;
+  color: black;
+  font-size: 25px;
+  transition: 2s;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  cursor: pointer;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+
+.logo:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 2s ease;
+}
+
+nav {
+  flex: 1;
+  text-align: center;
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px;
+  width: 50px;
+  margin-left: 10%;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: -20px;
+  float: right;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.social {
+  text-align: center;
+  width: 10%;
+  position: relative;
+  border-radius: 20px;
+  margin-right: 10%;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social li a img{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 10%;
+  padding: 10px;
+}
